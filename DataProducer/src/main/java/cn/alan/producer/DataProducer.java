@@ -140,14 +140,14 @@ public class DataProducer {
     }
 
     public static void main(String[] args) throws Exception {
-//        if (args == null || args.length <= 0) {
-//            System.out.println("no arguments");
-//            return;
-//        }
-        String logPath = "../out_data/calllog.csv";
+        if (args == null || args.length <= 0) {
+            System.out.println("no arguments");
+            return;
+        }
+//        String logPath = "F:\\MyProject\\TelcomAnalysis\\out_data\\calllog.csv";
         DataProducer dataProducer = new DataProducer();
         dataProducer.initPhone();
-        dataProducer.writeLog(logPath);
-//        dataProducer.writeLog(args[0]);
+//        dataProducer.writeLog(logPath);
+        dataProducer.writeLog(args[0]);
     }
 }

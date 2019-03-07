@@ -11,6 +11,7 @@
         <module>DataProducer</module>
         <module>DataAnalysis</module>
         <module>DataConsumer</module>
+        <module>Web</module>
     </modules>
     <packaging>pom</packaging>
 

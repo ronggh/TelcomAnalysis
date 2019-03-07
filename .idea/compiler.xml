@@ -9,6 +9,7 @@
         <module name="DataAnalysis" />
         <module name="DataConsumer" />
         <module name="DataProducer" />
+        <module name="Web" />
       </profile>
     </annotationProcessing>
   </component>
